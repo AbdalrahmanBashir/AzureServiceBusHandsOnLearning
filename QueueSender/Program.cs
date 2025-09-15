@@ -4,6 +4,8 @@ using System.Data;
 
 public class Program
 {
+    // SECURITY WARNING: This connection string is for learning purposes only. 
+    // It has been invalidated and deleted before being pushed to Git.
     private const string ServiceBusConnectionString = "Endpoint=sb://azure-service-buse-learning.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=zNGNiUmiTrP4rZhs1Gf9USahI+nvU4jmh+ASbK/T9TE=";
 
     private const string QueueName = "email-requests";

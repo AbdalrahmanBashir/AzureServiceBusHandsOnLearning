@@ -4,6 +4,8 @@ using System.Text.Json;
 
 public class Program
 {
+    // SECURITY WARNING: This connection string is for learning purposes only. 
+    // It has been invalidated and deleted before being pushed to Git.
     private const string ServiceBusConnectionString = "Endpoint=sb://pub-sub.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=McN7wxXv/EbavH/OHLrWQ17PILkVOD3S4+ASbKQEHlY=";
 
     private const string TopicName = "UserRegistered";
